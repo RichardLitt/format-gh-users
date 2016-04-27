@@ -4,19 +4,31 @@
   "description": "Format an array of GitHub users into named links",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/richardlitt/format-gh-users.git"
   },
+  "license": "MIT",
+  "author": {
+    "name": "Richard Littauer",
+    "email": "richard.littauer@gmail.com",
+    "url": "burntfen.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
   "keywords": [
     "github",
     "users",
     "format"
   ],
-  "author": "Richard Littauer <richard.littauer@gmail.com> (http://burntfen.com)",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/richardlitt/format-gh-users/issues"
   },
@@ -32,5 +44,8 @@
   "coordinates": [
     42.3377967,
     -71.0705763
-  ]
+  ],
+  "devDependencies": {
+    "standard": "^6.0.8"
+  }
 }
