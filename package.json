@@ -1,6 +1,6 @@
 {
   "name": "format-gh-users",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Format an array of GitHub users into named links",
   "main": "index.js",
   "scripts": {
@@ -42,8 +42,8 @@
     "sort-alphabetic": "0.0.0"
   },
   "coordinates": [
-    42.3377967,
-    -71.0705763
+    42.3844781,
+    -71.1194781
   ],
   "devDependencies": {
     "standard": "^6.0.8"
