@@ -14,7 +14,7 @@ module.exports = function (users, opts) {
   ).map((user) => getGithubUser(user))
   .then(_.flatten.bind(_))
   .map((user) => {
-    var str = '[@' + user.login + '](//github.com/' + user.login + ')'
+    var str = '- [@' + user.login + '](//github.com/' + user.login + ')'
     if (user.name) {
       str += ' (' + user.name + ')'
     }
