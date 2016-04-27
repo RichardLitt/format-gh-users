@@ -1,0 +1,32 @@
+{
+  "name": "format-gh-users",
+  "version": "1.0.0",
+  "description": "Format an array of GitHub users into named links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardlitt/format-gh-users.git"
+  },
+  "keywords": [
+    "github",
+    "users",
+    "format"
+  ],
+  "author": "Richard Littauer <richard.littauer@gmail.com> (http://burntfen.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardlitt/format-gh-users/issues"
+  },
+  "homepage": "https://github.com/richardlitt/format-gh-users#readme",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "get-github-user": "0.0.4",
+    "ghauth": "^3.2.0",
+    "lodash": "^4.11.1",
+    "meow": "^3.7.0",
+    "sort-alphabetic": "0.0.0"
+  }
+}
