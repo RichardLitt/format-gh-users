@@ -1,5 +1,7 @@
 # format-gh-users [![Build Status](https://travis-ci.org/RichardLitt/format-gh-users.svg?branch=master)](https://travis-ci.org/RichardLitt/format-gh-users)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RichardLitt/format-gh-users.svg)](https://greenkeeper.io/)
+
 > Format an array of GitHub users into named links
 
 
