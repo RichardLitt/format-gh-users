@@ -35,7 +35,7 @@
   "homepage": "https://github.com/richardlitt/format-gh-users#readme",
   "dependencies": {
     "bluebird": "^3.3.5",
-    "get-github-user": "0.0.4",
+    "get-github-user": "0.2.1",
     "ghauth": "^3.2.0",
     "lodash": "^4.11.1",
     "meow": "^3.7.0",
@@ -46,6 +46,6 @@
     -71.1194781
   ],
   "devDependencies": {
-    "standard": "^6.0.8"
+    "standard": "^10.0.3"
   }
 }
